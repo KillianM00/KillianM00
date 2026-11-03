@@ -1,55 +1,40 @@
 # Killian Miller
 
-**Security tooling · Systems software · Applied AI**
+**Cybersecurity · Systems programming · Applied research**
 
-I build security tools, systems software, and applications, with a focus on reproducible behavior, clear documentation, and thoughtful user interfaces. My work spans Python tooling, C and UEFI experiments, and web and desktop applications.
+I build software at trust and state boundaries: virtual machines, pre-boot authentication, security evaluation workflows, and persistent applications. My project write-ups connect architecture to source evidence and distinguish prototypes from validated results.
 
-[Portfolio](https://kmiller.dev/) · [Email](mailto:killianmiller6@gmail.com)
+[Technical portfolio](https://kmiller.dev/) · [Contact](mailto:killianmiller6@gmail.com)
 
-## Selected public projects
+## Selected security and systems work
 
-### [BL2 Save Editor](https://github.com/KillianM00/bl2-save-editor)
+| Project | Engineering focus | Read more |
+| --- | --- | --- |
+| **Wraith** | Linux KVM host, ELF32 guest loading, freestanding C/assembly kernel, and a separate UEFI/AMD SVM research path. | [Case study](https://kmiller.dev/projects/wraith/) |
+| **BootGate** | UEFI authentication, PBKDF2 password derivation, persistent lockout state, recovery credentials, and optional TPM PCR checks. | [Case study](https://kmiller.dev/projects/bootgate/) |
+| **Polysec Harness** | Python orchestration, bounded parallel investigation, typed evidence, independent verification, and reproduction workflows. | [Case study](https://kmiller.dev/projects/polysec-harness/) |
+| **Redteam Harness** | Separate evaluation roles, structured attempt records, drift audits, and clearly labeled synthetic replay. | [Case study](https://kmiller.dev/projects/redteam-harness/) |
+| **Hostcheck / Leakcheck** | Native host-posture adapters and VPN diagnostics with structured findings and explicit inconclusive outcomes. | [Hostcheck](https://kmiller.dev/projects/hostcheck/) · [Leakcheck](https://kmiller.dev/projects/leakcheck/) |
 
-A local web application for editing Borderlands 2 characters and inventory, with Gibbed code import/export and an optional 3D asset viewer.
+These repositories are currently private. Their public case studies describe implementation choices, threat boundaries, and validation limits.
 
-- **Engineering focus:** binary save formats, backup and write workflows, and a browser interface for complex game data.
-- **Built with:** Python, Flask, JavaScript, and Three.js.
-- **Explore:** [setup and architecture](https://github.com/KillianM00/bl2-save-editor#readme) · [test source](https://github.com/KillianM00/bl2-save-editor/tree/main/tests).
+## Selected public source
 
-### [Gmail Manager](https://github.com/KillianM00/gmail-manager)
-
-A Gmail management tool with a command-line interface and a local web UI for bulk mailbox operations and unsubscribe workflows.
-
-- **Engineering focus:** OAuth integration, batch operations, and a local subscription registry.
-- **Built with:** Python, FastAPI, Click, and the Gmail API.
-- **Explore:** [documentation](https://github.com/KillianM00/gmail-manager#readme) · [releases](https://github.com/KillianM00/gmail-manager/releases) · [PyPI](https://pypi.org/project/gmail-manager/).
-
-### [flaggle.lofi](https://github.com/KillianM00/flaggle-lofi)
-
-A daily flag game with two game modes, practice rounds, browser-local progress, and a soundtrack synthesized with Web Audio.
-
-- **Engineering focus:** deterministic daily puzzles, color matching, and a static application with no build step.
-- **Built with:** JavaScript, HTML, CSS, and Web Audio.
-- **Explore:** [play the game](https://kmiller.dev/flaggle-lofi/) · [source and setup](https://github.com/KillianM00/flaggle-lofi#readme).
-
-## Systems and applied-AI research
-
-My other work includes UEFI boot tooling, hypervisor experiments, host and VPN auditing tools, and multi-agent security research. Those repositories are currently private; the projects above provide publicly accessible examples of my work.
+- **[RLBOTSLOT](https://github.com/KillianM00/RLBOTSLOT)** — simulation-based reinforcement learning with object-centric observations, recurrent policy state, PPO, and vectorized rollout infrastructure. Research prototype; [current evidence and limitations](https://kmiller.dev/projects/rlbotslot/).
+- **[Gmail Manager](https://github.com/KillianM00/gmail-manager)** — OAuth-backed API integration, batch workflows, and shared Python services behind a CLI and local FastAPI UI.
+- **[BL2 Save Editor](https://github.com/KillianM00/bl2-save-editor)** — binary-format integration, bit-packed item serialization, per-file locking, atomic replacement, and optional 3D asset visualization.
+- **[flaggle.lofi](https://github.com/KillianM00/flaggle-lofi)** — deterministic daily state, geospatial/color algorithms, versioned browser persistence, and procedural Web Audio.
+- **[RL Map Manager](https://github.com/KillianM00/rl-map-manager)** — PySide6 catalog integration, metadata caching, and content-installation workflows.
+- **[Roblox Multi-Instance](https://github.com/KillianM00/roblox-multi-instance)** — C# / WPF, native resource lifetime, DPAPI-backed storage, MVVM, and DWM window previews.
 
 ## Technical focus
 
-| Area | Tools and interests |
+| Area | Evidence in the projects |
 | --- | --- |
-| Systems | C, UEFI / EDK II, Linux, QEMU, KVM |
-| Security and applied AI | Threat modeling, sandboxing, verification workflows, multi-agent orchestration |
-| Applications | Python, TypeScript, JavaScript, Flask, FastAPI, React, C# / WPF |
-| Engineering practice | Git, automated tests, reproducible setup, documentation |
+| Systems programming | C, x86 assembly, ELF loading, Linux KVM, UEFI/EDK II, AMD SVM |
+| Security engineering | Threat models, authentication policy, host/network diagnostics, evidence-based evaluation |
+| Python tooling | Typed schemas, subprocess orchestration, filesystem IPC, CLI/API services, test fixtures |
+| Application systems | TypeScript/JavaScript, relational persistence, state machines, browser APIs, C#/.NET |
+| Applied ML | PyTorch, PPO, recurrent state, rollout collection, synthetic pipeline validation |
 
-## More public work
-
-- [RL Map Manager](https://github.com/KillianM00/rl-map-manager) — a Python desktop browser for Rocket League workshop maps.
-- [Roblox Multi-Instance](https://github.com/KillianM00/roblox-multi-instance) — a Windows desktop launcher built with C# and WPF.
-
-## Contact
-
-For security, systems, and applied-AI engineering opportunities, reach me at [killianmiller6@gmail.com](mailto:killianmiller6@gmail.com).
+For security, systems, and computer-science engineering opportunities: [killianmiller6@gmail.com](mailto:killianmiller6@gmail.com).
