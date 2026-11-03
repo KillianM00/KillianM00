@@ -1,10 +1,24 @@
 # Killian Miller
 
-**Cybersecurity · Systems programming · Applied research**
+**Independent security research · Bug bounty hunting · Systems programming**
 
-I build software at trust and state boundaries: virtual machines, pre-boot authentication, security evaluation workflows, and persistent applications. My project write-ups connect architecture to source evidence and distinguish prototypes from validated results.
+I investigate trust boundaries in developer tools and build systems software. My work includes a responsible disclosure recognized by Anthropic, virtualization research, pre-boot authentication, and reproducible security evaluation.
 
 [Technical portfolio](https://kmiller.dev/) · [Contact](mailto:killianmiller6@gmail.com)
+
+## Featured research — Anthropic
+
+**Independent bug bounty research · Developer-tool security · May 2026**
+
+Investigated how repository-provided hooks and MCP configuration interact with workspace trust and noninteractive execution in Anthropic’s coding-agent CLI.
+
+- Prepared reproduction cases, permission-mode comparisons, and startup timing evidence.
+- Submitted the research and followed up with Anthropic’s security team to examine alternative explanations.
+- **Outcome:** Anthropic recognized the submission as informative and said it aided the discovery of other vulnerabilities.
+
+**Skills:** threat modeling, controlled experiments, reproduction design, evidence analysis, and technical disclosure writing.
+
+[Read the research summary →](https://kmiller.dev/research/anthropic/)
 
 ## Selected security and systems work
 
